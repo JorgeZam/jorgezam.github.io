@@ -7,22 +7,22 @@ redirect_from:
   - /about.html
 ---
 
+Ph.D. in Electrical Engineering from Universidad de Chile, specialized in **Image Processing** and **Artificial Intelligence**. My research lies at the intersection of *deep learning*, image processing, and data science. I completed my undergraduate studies in Ecuador, earning a degree in Electronic Engineering with a specialization in Instrumentation.
 
-Doctor en Ingeniería Eléctrica por la Universidad de Chile, especializado en **Procesamiento de Imágenes** e **Inteligencia Artificial**. Mi trayectoria investigativa se sitúa en la intersección del *deep learning*, el procesamiento de imágenes y la ciencia de datos. Realicé mis estudios de pregrado en Ecuador, donde obtuve el título de Ingeniero Electrónico en Instrumentación.
+I am currently a faculty member at **Universidad Diego Portales**.
 
-Actualmente soy profesor en la **Universidad Diego Portales**.
+## Doctoral training and research
 
-## Formación e investigación doctoral
+During my doctoral studies I specialized in biometric modeling using convolutional neural networks (CNNs). I have participated in the **FONDECYT 1231675** and **1191610** projects, focused on facial biometrics, 3D iris modeling, and deep learning, as well as in the **IMPACT Basal Project (FB210024)**, where I investigated the use of *deep learning* for biomedical image analysis, including the detection of psychiatric disorders from extracellular vesicles.
 
-Durante mi formación doctoral me especialicé en el modelamiento biométrico mediante redes neuronales convolucionales (CNN). He participado en los proyectos **FONDECYT 1231675** y **1191610**, enfocados en biometría facial, modelamiento 3D de iris y aprendizaje profundo, así como en el **Proyecto Basal IMPACT (FB210024)**, donde investigué el uso de *deep learning* para el análisis de imágenes biomédicas, incluyendo la detección de trastornos psiquiátricos a partir de vesículas extracelulares.
+## Postdoctoral stage
 
-## Etapa postdoctoral
+During my postdoctoral stage, a key contribution was my participation in the **FONDEF ID24I10408** project, where I developed intelligent systems for the detection of illegal products through the multimodal integration of text and image.
 
-En mi etapa postdoctoral destaca mi participación en el proyecto **FONDEF ID24I10408**, en el cual desarrollé sistemas inteligentes para la detección de productos ilegales mediante la integración multimodal de texto e imagen.
+## Teaching and collaboration
 
-## Docencia y colaboración
+I have over six years of teaching experience in courses on **programming**, **signals and systems**, **image processing**, and **artificial intelligence**, and I maintain active scientific collaboration networks both nationally and internationally.
 
-Cuento con más de seis años de experiencia docente en asignaturas de **programación**, **señales y sistemas**, **procesamiento de imágenes** e **inteligencia artificial**, y mantengo redes activas de colaboración científica tanto a nivel nacional como internacional.
 
 ## Contacto
 
