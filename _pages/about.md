@@ -24,6 +24,6 @@ During my postdoctoral stage, a key contribution was my participation in the **F
 I have over six years of teaching experience in courses on **programming**, **signals and systems**, **image processing**, and **artificial intelligence**, and I maintain active scientific collaboration networks both nationally and internationally.
 
 
-## Contacto
+## Contact
 
-Para colaboraciones o consultas: [jorge.zambrano.ibujes@gmail.com](mailto:jorge.zambrano.ibujes@gmail.com)
+For collaborations or inquiries: [jorge.zambrano.ibujes@gmail.com](mailto:jorge.zambrano.ibujes@gmail.com)
