@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2016-06-01-wirelesshart-training-system
 excerpt: 'A hands-on training platform that emulates a WirelessHART industrial network for teaching wireless process-control concepts to engineering students.'
-date: 2026-06-01
+date: 2016-06-01
 venue: 'IEEE Latin America Transactions'
 paperurl: 'https://ieeexplore.ieee.org/document/7555235'
 #bibtexurl: 'http://jorgezam.github.io/files/bibtex_wirelesshart.bib'
