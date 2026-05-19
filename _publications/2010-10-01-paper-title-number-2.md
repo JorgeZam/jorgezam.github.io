@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "Iris Recognition Using Low-Level CNN Layers Without Training and Single Matching"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2022-04-18-iris-recognition-low-level-cnn
+excerpt: 'A deep-learning approach to iris recognition that uses features from the low-level layers of pretrained CNNs without further training, combined with bit-shifting for robustness against pupil dilation.'
+date: 2022-04-18
+venue: 'IEEE Access'
+paperurl: 'https://ieeexplore.ieee.org/document/9755923'
+bibtexurl: 'https://jorgezam.github.io/files/iris_lowlevel_cnn.bib'
+citation: '<b>Zambrano, J. E.</b>, Benalcazar, D. P., Perez, C. A., &amp; Bowyer, K. W. (2022). &quot;Iris Recognition Using Low-Level CNN Layers Without Training and Single Matching.&quot; <i>IEEE Access</i>, 10, pp. 41276-41286.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This work proposes an iris recognition method that leverages features extracted from the low-level layers of pretrained convolutional neural networks, without requiring additional training on iris data. The approach incorporates a bit-shifting strategy to improve robustness against pupil dilation, a known challenge in iris biometrics. Single-matching evaluation on standard iris databases demonstrates competitive recognition performance with reduced computational cost. DOI: [10.1109/ACCESS.2022.3166910](https://doi.org/10.1109/ACCESS.2022.3166910)
