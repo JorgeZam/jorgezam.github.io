@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "es-CL"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Jorge Zambrano"
+title                    : "Jorge E. Zambrano Ibujés"
 title_separator          : "|"
 name                     : &name "Jorge Zambrano"
 description              : &description "Ph.D. in Electrical Engineering, Universidad de Chile"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,7 +24,7 @@ repository               : "jorgezam/jorgezam.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Jorge Zambrano"
+  name             : "Jorge E. Zambrano Ibujés"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Electrical Engineering, Universidad de Chile. Working on Image Processing and AI applied to biometrics and biomedical systems."
   location         : "Santiago, Chile"
