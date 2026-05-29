@@ -1,5 +1,5 @@
 ---
-title: "Implementation of a WirelessHART training system for upgrading industrial"
+title: "Implementation of a WirelessHART Training System for Upgrading Industrial Automation"
 collection: publications
 category: manuscripts
 permalink: /publication/2016-06-01-wirelesshart-training-system
