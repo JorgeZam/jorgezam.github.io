@@ -17,6 +17,11 @@ redirect_from:
 
 ## Work Experience
 
+* 2026–Present: Assistant Professor
+  * Universidad Diego Portales
+  * Teaching and research in computer vision applied to histopathological image analysis.
+  * Supervisor: Prof. Luciano Ahumada
+
 * 2024–2026: Postdoctoral Researcher — FONDEF ID24I10408
   * Universidad de Chile
   * Developed intelligent systems for the detection of illegal products through multimodal integration of text and image data, combining natural language processing and computer vision techniques.
