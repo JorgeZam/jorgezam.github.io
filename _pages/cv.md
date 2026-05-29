@@ -15,31 +15,25 @@ redirect_from:
 * Ph.D. in Electrical Engineering, Universidad de Chile, 2025
 * B.S. in Electronics and Instrumentation Engineering, Universidad de las Fuerzas Armadas ESPE, Latacunga, Ecuador, 2015
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Work Experience
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2024–2026: Postdoctoral Researcher — FONDEF ID24I10408
+  * Universidad de Chile
+  * Developed intelligent systems for the detection of illegal products through multimodal integration of text and image data, combining natural language processing and computer vision techniques.
+  * Supervisor: Prof. Claudio Perez
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2026 (Fall): Part-time Lecturer
+  * Universidad de Chile
+  * Taught an introductory programming course with a focus on AI agents and their application to software development workflows.
+  * Supervisor: Prof. Andrés Caba
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Skills
+
+* **Programming:** Python, MATLAB
+* **Deep Learning & CV:** PyTorch, OpenCV, YOLO, SuperPoint, LightGlue, LightGlue, CNNs, Transformers, LLMs, IA Agents
+* **Research Areas:** Computer Vision, Biometrics, Medical Imaging, Feature Matching
+* **Tools:** Git, Docker, LaTeX, Jupyter
+* **Teaching:** Programming, Image Processing, Artificial Intelligence
 
 Publications
 ======
@@ -59,6 +53,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Service and Leadership
+
+* Reviewer, IEEE Access
