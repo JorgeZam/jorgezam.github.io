@@ -26,4 +26,4 @@ I have over six years of teaching experience in courses on **programming**, **si
 
 ## Contact
 
-For collaborations or inquiries: [jorge.zambrano.ibujes@gmail.com](mailto:jorge.zambrano.ibujes@gmail.com)
+For collaborations or inquiries: [jorge.zambrano@mail.udp.cl](mailto:jorge.zambrano@mail.udp.cl)
