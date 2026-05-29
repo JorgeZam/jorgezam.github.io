@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: "CV"
+title: "Jorge E. Zambrano Ibujés"
+description: "Researcher at Universidad Diego Portales working on deep learning, computer vision, and biometric systems."
 permalink: /cv/
 author_profile: true
 redirect_from:
