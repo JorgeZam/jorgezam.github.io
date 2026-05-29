@@ -1,5 +1,6 @@
 ---
 title: "Implementation of a WirelessHART training system for upgrading industrial"
+description: "Peer-reviewed publications on iris recognition, neuroevolution, and deep learning for biomedical imaging."
 collection: publications
 category: manuscripts
 permalink: /publication/2016-06-01-wirelesshart-training-system
