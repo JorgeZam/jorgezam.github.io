@@ -1,8 +1,9 @@
 ---
 title: "Improved Search in Neuroevolution Using a Neural Architecture Classifier With the CNN Architecture Encoding as Feature Vector"
 collection: publications
+selected: true
 category: manuscripts
-permalink: /publication/2024-01-19-neuroevolution-neural-architecture-classifier
+permalink: /publication/2024-01-19-neuroevolution
 excerpt: 'A neuroevolution method that accelerates architecture search by training a classifier on CNN architecture encodings as feature vectors, reducing evaluation cost within genetic algorithm-based search.'
 date: 2024-01-19
 venue: 'IEEE Access'
