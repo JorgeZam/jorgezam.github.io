@@ -1,7 +1,7 @@
 ---
 title: "Signals Analysis (EL3005 / EL3203)"
 collection: teaching
-category: instructor
+category: assistant
 type: "Undergraduate course"
 permalink: /teaching/2019-signals-analysis
 venue: "Universidad de Chile, Department of Electrical Engineering"
