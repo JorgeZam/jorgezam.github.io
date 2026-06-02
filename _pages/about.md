@@ -15,6 +15,15 @@ I am currently a faculty member at **Universidad Diego Portales**.
 
 My current research focuses on weakly supervised learning applied to the detection of irregularities in histopathological tissue. Specifically, I work with Multiple Instance Learning (MIL) frameworks for Whole Slide Image (WSI) analysis, aiming to identify pathological patterns without requiring exhaustive pixel-level annotations.
 
+## Selected Publications
+
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% for post in selected_pubs %}
+- {{ post.citation }} [[Details]]({{ post.url }})
+{% endfor %}
+
+[See all publications: ](/publications/)
+
 ## Doctoral stage and research
 
 During my doctoral studies I specialized in biometric modeling using convolutional neural networks (CNNs). I have participated in the **FONDECYT 1231675** and **1191610** projects, focused on facial biometrics, 3D iris modeling, and deep learning, as well as in the **IMPACT Basal Project (FB210024)**, where I investigated the use of *deep learning* for biomedical image analysis, including the detection of psychiatric disorders from extracellular vesicles.
