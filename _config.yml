@@ -93,10 +93,10 @@ publication_category:
 
 # Teaching Category - The following the list of teaching categories and their headings
 teaching_category:
-  assistant:
-    title: 'Teaching Assistant'    
   instructor:
-    title: 'Instructor'
+    title: 'As Instructor of Record'
+  assistant:
+    title: 'As Teaching Assistant'    
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
