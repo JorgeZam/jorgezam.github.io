@@ -1,8 +1,9 @@
 ---
 title: "Iris Recognition Using an Enhanced Pre-Trained Backbone Based on Anti-Aliased CNNs"
 collection: publications
+selected: true
 category: manuscripts
-permalink: /publication/2024-07-09-iris-recognition-anti-aliased-cnn
+permalink: /publication/2024-07-09-antialiasing_iris
 excerpt: 'An iris recognition method that enhances a pretrained backbone with anti-aliasing techniques to improve shift-invariance, combined with bit-shifting for robustness against pupil dilation.'
 date: 2024-07-09
 venue: 'IEEE Access'
