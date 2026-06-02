@@ -35,10 +35,20 @@ redirect_from:
 ## Skills
 
 * **Programming:** Python, MATLAB
-* **Deep Learning & CV:** PyTorch, OpenCV, YOLO, SuperPoint, LightGlue, LightGlue, CNNs, Transformers, LLMs, IA Agents
+* **Deep Learning & CV:** PyTorch, OpenCV, YOLO, SuperPoint, LightGlue, CNNs, Transformers, LLMs, AI Agents
 * **Research Areas:** Computer Vision, Biometrics, Medical Imaging, Feature Matching
 * **Tools:** Git, Docker, LaTeX, Jupyter
 * **Teaching:** Programming, Image Processing, Artificial Intelligence
+
+## Awards and Honors
+
+* **Doctoral Program — Top Graduate (1st of 7), Grade A**
+  * Ph.D. in Electrical Engineering, Universidad de Chile, 2025
+  * Ranked 1st among all doctoral graduates of the program in 2025, with the highest final grade (A), as certified by the Faculty of Physical and Mathematical Sciences.
+
+* **ANID National Doctoral Fellowship (Beca de Doctorado Nacional)**
+  * National Research and Development Agency (ANID), Chile, 2019
+  * Competitive national fellowship awarded to fund doctoral studies in Chile.
 
 Publications
 ======
