@@ -11,7 +11,11 @@ Ph.D. in Electrical Engineering from Universidad de Chile, specialized in **Imag
 
 I am currently a faculty member at **Universidad Diego Portales**.
 
-## Doctoral training and research
+## Current Research
+
+My current research focuses on weakly supervised learning applied to the detection of irregularities in histopathological tissue. Specifically, I work with Multiple Instance Learning (MIL) frameworks for Whole Slide Image (WSI) analysis, aiming to identify pathological patterns without requiring exhaustive pixel-level annotations.
+
+## Doctoral stage and research
 
 During my doctoral studies I specialized in biometric modeling using convolutional neural networks (CNNs). I have participated in the **FONDECYT 1231675** and **1191610** projects, focused on facial biometrics, 3D iris modeling, and deep learning, as well as in the **IMPACT Basal Project (FB210024)**, where I investigated the use of *deep learning* for biomedical image analysis, including the detection of psychiatric disorders from extracellular vesicles.
 
