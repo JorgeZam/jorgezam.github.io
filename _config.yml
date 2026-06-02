@@ -91,6 +91,13 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+# Teaching Category - The following the list of teaching categories and their headings
+teaching_category:
+  assistant:
+    title: 'Teaching Assistant'    
+  instructor:
+    title: 'Instructor'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
