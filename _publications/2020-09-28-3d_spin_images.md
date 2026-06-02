@@ -2,7 +2,7 @@
 title: "3D Iris Recognition Using Spin Images"
 collection: publications
 category: conferences
-permalink: /publication/2020-09-28-3d-iris-recognition-spin-images
+permalink: /publication/2020-09-28-3d_spin_images
 excerpt: 'A 3D iris recognition method that applies spin image descriptors to three-dimensional iris surface models, enabling recognition robust to the geometric distortions present in standard 2D approaches.'
 date: 2020-09-28
 venue: '2020 IEEE International Joint Conference on Biometrics (IJCB)'
