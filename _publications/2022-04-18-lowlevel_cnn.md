@@ -2,7 +2,7 @@
 title: "Iris Recognition Using Low-Level CNN Layers Without Training and Single Matching"
 collection: publications
 category: manuscripts
-permalink: /publication/2022-04-18-iris-recognition-low-level-cnn
+permalink: /publication/2022-04-18-lowlevel_cnn
 excerpt: 'A deep-learning approach to iris recognition that uses features from the low-level layers of pretrained CNNs without further training, combined with bit-shifting for robustness against pupil dilation.'
 date: 2022-04-18
 venue: 'IEEE Access'
