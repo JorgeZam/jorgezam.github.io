@@ -1,6 +1,7 @@
 ---
 title: "Advanced Programming (EL4203-1)"
 collection: teaching
+category: instructor
 type: "Undergraduate course"
 permalink: /teaching/2026-fall-advanced-programming
 venue: "Universidad de Chile, Department of Electrical Engineering"
