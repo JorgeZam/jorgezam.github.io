@@ -1,6 +1,7 @@
 ---
 title: "Deep Learning-Based Differential Diagnosis of Major Depression and Bipolar Disorder Using Microglia-Cellular Sensors and Patient-Derived Small Extracellular Vesicles"
 collection: publications
+selected: true
 category: manuscripts
 permalink: /publication/2026-04-07-deep-learning-diagnosis-mdd-bd-microglia
 excerpt: 'A deep learning framework using microglial cells as biosensors and DenseNet121 to differentiate major depressive disorder, bipolar disorder, and healthy controls from fluorescence microscopy images of patient-derived extracellular vesicles.'
