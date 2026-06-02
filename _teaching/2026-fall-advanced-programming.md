@@ -8,10 +8,7 @@ venue: "Universidad de Chile, Department of Electrical Engineering"
 date: 2026-03-01
 location: "Santiago, Chile"
 ---
-
+An advanced undergraduate course covering object-oriented programming, functional paradigms, software design patterns, and AI-assisted development practices using Python.
 ## Technologies and Tools
-An advanced undergraduate course covering object-oriented programming, 
-functional paradigms, software design patterns, and AI-assisted development 
-practices using Python.
 - **Language:** Python
 - **AI-assisted development:** Programming agents and AI-powered coding tools
