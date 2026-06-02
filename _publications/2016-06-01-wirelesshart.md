@@ -2,7 +2,7 @@
 title: "Implementation of a WirelessHART Training System for Upgrading Industrial Automation"
 collection: publications
 category: manuscripts
-permalink: /publication/2016-06-01-wirelesshart-training-system
+permalink: /publication/2016-06-01-wirelesshart
 excerpt: 'A hands-on training platform that emulates a WirelessHART industrial network for teaching wireless process-control concepts to engineering students.'
 date: 2016-06-01
 venue: 'IEEE Latin America Transactions'
