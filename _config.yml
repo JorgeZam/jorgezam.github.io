@@ -98,6 +98,19 @@ teaching_category:
   assistant:
     title: 'As Teaching Assistant'    
 
+# Advising & Committees Categories - The following is the list of academic supervision categories and their headings
+advising_category:
+  advisor:
+    title: 'As Primary Advisor'
+  co_advisor:
+    title: 'As Co-Advisor'
+
+committee_category:
+  member:
+    title: 'As Committee Member'
+  external:
+    title: 'As External Examiner'
+    
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
