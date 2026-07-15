@@ -315,6 +315,21 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # advising
+  - scope:
+      path: ""
+      type: advising
+    values:
+      layout: single
+      author_profile: true
+      share: false
+  - scope:
+      path: ""
+      type: committees
+    values:
+      layout: single
+      author_profile: true
+      share: false
 
 
 # Sass/SCSS
