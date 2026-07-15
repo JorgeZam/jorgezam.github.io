@@ -18,6 +18,7 @@ status: "In progress"
 **Location:** Santiago de Chile  
 **Status:** In progress
 
+
 ### Overview
 
 This project focuses on the application of deep learning and computer vision algorithms to track volleyball players and quantitatively analyze their vertical jump performance in real-time.
