@@ -12,4 +12,14 @@ advisor: "Víctor Reyes"
 status: "In progress"
 ---
 
-<!-- Descripción breve del trabajo evaluado y el foco del comité. -->
+**Student:** Tomás Francisco Díaz Calderón  
+**Degree:** Undergraduate Thesis (Memoria de Título)  
+**Primary Advisor:** Víctor Reyes  
+**My Role:** Committee Member  
+**Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
+**Location:** Santiago de Chile  
+**Status:** In progress
+
+### Overview
+
+This thesis explores adaptive restart and clustering strategies for Branch and Bound optimization algorithms, using Q-Learning to dynamically guide the search process. The work aims to improve convergence and solution quality on combinatorial optimization problems by learning restart policies from experience.
