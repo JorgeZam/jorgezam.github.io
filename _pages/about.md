@@ -34,7 +34,7 @@ During my postdoctoral stage, a key contribution was my participation in the **F
 
 ## Teaching and collaboration
 
-I have over six years of teaching experience in courses on **programming**, **signals and systems**, **image processing**, and **artificial intelligence**, and I maintain active scientific collaboration networks both nationally and internationally.
+I have teaching experience since 2019 in courses on **programming**, **signals and systems**, **image processing**, and **artificial intelligence**, and I maintain active scientific collaboration networks both nationally and internationally.
 
 
 ## Contact
