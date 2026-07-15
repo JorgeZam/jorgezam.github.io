@@ -1,19 +1,25 @@
 ---
-title: "Visión Computacional para seguimiento posicional de jugadores y cuantificación de saltos en voleybol"
-collection: advising
-category: advisor
+title: "Estrategias Adaptativas de Reinicio y Clustering para Branch and Bound mediante Q-Learning"
+collection: committees
+category: member
 type: "Undergraduate Thesis (Memoria de Título)"
-permalink: /advising/2026-03-01-benjamin-araya
+permalink: /committees/2026-07-23-tomas-diaz
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
-date: 2026-03-01
+date: 2026-07-23
 location: "Santiago de Chile"
-student: "Benjamín Araya"
+student: "Tomás Francisco Díaz Calderón"
+advisor: "Víctor Reyes"
 status: "In progress"
 ---
 
-This project focuses on the application of deep learning and computer vision algorithms to track volleyball players and quantitatively analyze their vertical jump performance in real-time. 
+**Student:** Tomás Francisco Díaz Calderón  
+**Degree:** Undergraduate Thesis (Memoria de Título)  
+**Primary Advisor:** Víctor Reyes  
+**My Role:** Committee Member  
+**Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
+**Location:** Santiago de Chile  
+**Status:** In progress
 
-### Key Contributions & Technologies:
-* **Role:** Primary Advisor (Profesor Guía).
-* **Core Technologies:** Object Tracking, Pose Estimation, Python, OpenCV, and Deep Learning frameworks.
-* **Impact:** Development of a non-invasive tool to assist coaching staff and athletic trainers in optimizing player positioning and preventing injuries.
+### Overview
+
+This thesis explores adaptive restart and clustering strategies for Branch and Bound optimization algorithms, using Q-Learning to dynamically guide the search process. The work aims to improve convergence and solution quality on combinatorial optimization problems by learning restart policies from experience.
