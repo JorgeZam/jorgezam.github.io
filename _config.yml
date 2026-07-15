@@ -240,7 +240,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  advising:
+      output: true
+      permalink: /advising/:path/
+    committees:
+      output: true
+      permalink: /committees/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
