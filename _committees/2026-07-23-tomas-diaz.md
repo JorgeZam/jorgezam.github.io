@@ -20,6 +20,7 @@ status: "In progress"
 **Location:** Santiago de Chile  
 **Status:** In progress
 
+
 ### Overview
 
 This thesis explores adaptive restart and clustering strategies for Branch and Bound optimization algorithms, using Q-Learning to dynamically guide the search process. The work aims to improve convergence and solution quality on combinatorial optimization problems by learning restart policies from experience.
