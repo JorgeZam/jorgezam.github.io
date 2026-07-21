@@ -4,7 +4,7 @@ collection: committees
 category: member
 type: "Undergraduate Thesis (Memoria de Título)"
 permalink: /committees/2026-07-25-carlos-faundez
-venue: "Universidad de Chile, Deparatamento de Ingeniería Eléctrica"
+venue: "Universidad de Chile, Departamento de Ingeniería Eléctrica"
 date: 2026-07-25
 location: "Santiago de Chile"
 student: "Carlos Joaquín Faúndez"
@@ -16,7 +16,7 @@ status: "In progress"
 **Degree:** Undergraduate Thesis (Memoria de Título)  
 **Primary Advisor:** Franco Curotto  
 **My Role:** Committee Member  
-**Institution:** Universidad de Chile, Deparatamento de Ingeniería Eléctrica  
+**Institution:** Universidad de Chile, Departamento de Ingeniería Eléctrica  
 **Location:** Santiago de Chile  
 **Status:** In progress
 
