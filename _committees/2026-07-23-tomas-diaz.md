@@ -18,7 +18,7 @@ status: "In progress"
 **My Role:** Committee Member  
 **Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
 **Location:** Santiago de Chile  
-**Status:** In progress
+**Status:** Defended
 
 
 ### Overview
