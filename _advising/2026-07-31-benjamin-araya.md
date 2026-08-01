@@ -3,9 +3,9 @@ title: "Visión Computacional para seguimiento posicional de jugadores y cuantif
 collection: advising
 category: advisor
 type: "Undergraduate Thesis (Memoria de Título)"
-permalink: /advising/2026-03-01-benjamin-araya
+permalink: /advising/2026-07-31-benjamin-araya
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
-date: 2026-03-01
+date: 2026-07-31
 location: "Santiago de Chile"
 student: "Benjamín Araya"
 status: "In progress"
@@ -16,7 +16,7 @@ status: "In progress"
 **My Role:** Primary Advisor (Profesor Guía)  
 **Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
 **Location:** Santiago de Chile  
-**Status:** In progress
+**Status:** Defended
 
 
 ### Overview
