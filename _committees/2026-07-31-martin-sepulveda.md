@@ -5,7 +5,7 @@ category: member
 type: "Undergraduate Thesis (Memoria de Título)"
 permalink: /committees/2026-07-31-martin-sepulveda
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
-date: 2026-07-23
+date: 2026-07-31
 location: "Santiago de Chile"
 student: "Martín Ignacio Sepúlveda Quintanilla"
 advisor: "Miguel Carrasco"
