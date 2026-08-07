@@ -8,7 +8,7 @@ venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones
 date: 2026-07-31
 location: "Santiago de Chile"
 student: "Benjamín Araya"
-status: "In progress"
+status: "Defended"
 ---
 
 **Student:** Benjamín Araya  
