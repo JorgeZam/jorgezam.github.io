@@ -3,9 +3,9 @@ title: "Detección de personas mediante visión computacional para la optimizaci
 collection: advising
 category: advisor
 type: "Undergraduate Thesis (Memoria de Título)"
-permalink: /advising/2026-06-08-nicolas-schofield
+permalink: /advising/2026-08-06-nicolas-schofield
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
-date: 2026-06-08
+date: 2026-08-06
 location: "Santiago de Chile"
 student: "Tomás Schofield"
 status: "Defended"
