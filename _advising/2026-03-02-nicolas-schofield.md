@@ -16,7 +16,7 @@ status: "In progress"
 **My Role:** Primary Advisor (Profesor Guía)  
 **Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
 **Location:** Santiago de Chile  
-**Status:** In progress
+**Status:** Defended  
 
 
 ### Overview
