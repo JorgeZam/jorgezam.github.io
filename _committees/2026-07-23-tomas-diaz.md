@@ -9,7 +9,7 @@ date: 2026-07-23
 location: "Santiago de Chile"
 student: "Tomás Francisco Díaz Calderón"
 advisor: "Víctor Reyes"
-status: "In progress"
+status: "Defended"
 ---
 
 **Student:** Tomás Francisco Díaz Calderón  
