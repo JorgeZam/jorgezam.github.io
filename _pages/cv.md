@@ -66,4 +66,4 @@ Teaching
 ## Service and Leadership
 
 * Reviewer, IEEE Access, IEEE.
-* Reviewer, JImaging, MDPI.   
+* Reviewer, Journal of Imaging, MDPI.   
