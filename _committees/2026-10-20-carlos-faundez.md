@@ -3,13 +3,13 @@ title: "Detector de presencia de ingredientes pequeños y medianos (MIDI) en la 
 collection: committees
 category: member
 type: "Undergraduate Thesis (Memoria de Título)"
-permalink: /committees/2026-07-25-carlos-faundez
+permalink: /committees/2026-10-20-carlos-faundez
 venue: "Universidad de Chile, Departamento de Ingeniería Eléctrica"
-date: 2026-07-25
+date: 2026-10-20
 location: "Santiago de Chile"
 student: "Carlos Joaquín Faúndez"
 advisor: "Franco Curotto"
-status: "In progress"
+status: "Defended"
 ---
 
 **Student:** Carlos Joaquín Faúndez  
@@ -18,7 +18,7 @@ status: "In progress"
 **My Role:** Committee Member  
 **Institution:** Universidad de Chile, Departamento de Ingeniería Eléctrica  
 **Location:** Santiago de Chile  
-**Status:** In progress
+**Status:** Defended.   
 
 
 ### Overview
