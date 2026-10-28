@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Jorge E. Zambrano Ibujés"
-description: "Researcher at Universidad Diego Portales working on deep learning, computer vision, and biometric systems."
+description: "Assistant Professor at Universidad Diego Portales working on deep learning, computer vision, and biometric systems."
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -22,14 +22,14 @@ redirect_from:
   * Teaching and research in computer vision applied to histopathological image analysis.
   * Supervisor: Prof. Luciano Ahumada
 
-* 2024–2026: Postdoctoral Researcher — FONDEF ID24I10408
+* 2025–2026: Postdoctoral Researcher — FONDEF ID24I10408
   * Universidad de Chile
   * Developed intelligent systems for the detection of illegal products through multimodal integration of text and image data, combining natural language processing and computer vision techniques.
   * Supervisor: Prof. Claudio Perez
 
 * 2026 (Fall): Part-time Lecturer
   * Universidad de Chile
-  * Taught an introductory programming course with a focus on AI agents and their application to software development workflows.
+  * Taught an advanced programming course covering object-oriented programming, functional paradigms, software design patterns, and AI-assisted development with programming agents.
   * Supervisor: Prof. Andrés Caba
   
 ## Skills

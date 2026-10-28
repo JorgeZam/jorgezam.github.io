@@ -15,7 +15,7 @@ This work proposes an iris recognition approach that enhances a pretrained CNN b
 ## How to cite
 ```bibtex
 @article{zambrano2024irisantialias,
-  author    = {Zambrano, Jorge E. and Pilataxi, J. I. and Perez, Claudio A. and Bowyer, Kevin W.},
+  author    = {Zambrano, Jorge E. and Pilataxi, Jhon I. and Perez, Claudio A. and Bowyer, Kevin W.},
   journal   = {IEEE Access},
   title     = {Iris Recognition Using an Enhanced Pre-Trained Backbone Based on Anti-Aliased CNNs},
   year      = {2024},
@@ -23,7 +23,5 @@ This work proposes an iris recognition approach that enhances a pretrained CNN b
   pages     = {94570--94583},
   doi       = {10.1109/ACCESS.2024.3425648}
 }
-` `` 
----
 ```
 

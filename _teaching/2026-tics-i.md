@@ -4,7 +4,7 @@ collection: teaching
 category: instructor
 type: "Undergraduate course"
 permalink: /teaching/2026-tics-i
-venue: "Universidad Diego Portales, Escuela de Ingeniería Informática"
+venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
 date: 2026-08-01
 location: "Santiago, Chile"
 ---

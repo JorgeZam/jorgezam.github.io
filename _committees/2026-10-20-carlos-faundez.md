@@ -18,7 +18,7 @@ status: "Defended"
 **My Role:** Committee Member  
 **Institution:** Universidad de Chile, Departamento de Ingeniería Eléctrica  
 **Location:** Santiago de Chile  
-**Status:** Defended.   
+**Status:** Defended  
 
 
 ### Overview

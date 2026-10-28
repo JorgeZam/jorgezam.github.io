@@ -5,7 +5,7 @@ collection: teaching
 category: instructor
 type: "Undergraduate course"
 permalink: /teaching/2026-fall-programming-ca20
-venue: "Universidad Diego Portales, Escuela de Ingeniería Informática"
+venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
 date: 2026-03-01
 location: "Santiago, Chile"
 ---
