@@ -7,11 +7,11 @@ permalink: /advising/2026-08-06-nicolas-schofield
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
 date: 2026-08-06
 location: "Santiago de Chile"
-student: "Tomás Schofield"
+student: "Nicolás Schofield"
 status: "Defended"
 ---
 
-**Student:** Tomás Schofield  
+**Student:** Nicolás Schofield  
 **Degree:** Undergraduate Thesis (Memoria de Título)  
 **My Role:** Primary Advisor (Profesor Guía)  
 **Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
