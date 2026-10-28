@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Jorge E. Zambrano Ibujés"
+title: "Curriculum Vitae"
 description: "Assistant Professor at Universidad Diego Portales working on deep learning, computer vision, and biometric systems."
 permalink: /cv/
 author_profile: true
@@ -32,6 +32,20 @@ redirect_from:
   * Taught an advanced programming course covering object-oriented programming, functional paradigms, software design patterns, and AI-assisted development with programming agents.
   * Supervisor: Prof. Andrés Caba
   
+## Research Projects
+
+* **FONDEF ID24I10408** — Postdoctoral Researcher
+  * Intelligent systems for the detection of illegal products through multimodal integration of text and image data.
+
+* **FONDECYT 1231675** — Researcher (doctoral stage)
+  * Facial biometrics, 3D iris modeling, and deep learning.
+
+* **FONDECYT 1191610** — Researcher (doctoral stage)
+  * Facial biometrics, 3D iris modeling, and deep learning.
+
+* **IMPACT Basal Project FB210024** — Researcher (doctoral stage)
+  * Deep learning for biomedical image analysis, including the detection of psychiatric disorders from extracellular vesicles.
+
 ## Skills
 
 * **Programming:** Python, MATLAB
