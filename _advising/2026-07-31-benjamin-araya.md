@@ -1,5 +1,5 @@
 ---
-title: "Visión Computacional para seguimiento posicional de jugadores y cuantificación de saltos en voleybol"
+title: "Visión Computacional para seguimiento posicional de jugadores y cuantificación de saltos en voleibol"
 collection: advising
 category: advisor
 type: "Undergraduate Thesis (Memoria de Título)"

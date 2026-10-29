@@ -22,28 +22,30 @@ redirect_from:
   * Teaching and research in computer vision applied to histopathological image analysis.
   * Director: Prof. Luciano Ahumada
 
+* 2026 (Fall): Part-time Lecturer
+  * Universidad de Chile
+  * Taught an advanced programming course covering object-oriented programming, functional paradigms, software design patterns, and AI-assisted development with programming agents.
+  * Director: Prof. Andrés Caba
+
 * 2025–2026: Postdoctoral Researcher — FONDEF ID24I10408
   * Universidad de Chile
   * Developed intelligent systems for the detection of illegal products through multimodal integration of text and image data, combining natural language processing and computer vision techniques.
   * Supervisor: Prof. Claudio Perez
 
-* 2026 (Fall): Part-time Lecturer
-  * Universidad de Chile
-  * Taught an advanced programming course covering object-oriented programming, functional paradigms, software design patterns, and AI-assisted development with programming agents.
-  * Director: Prof. Andrés Caba
-  
 ## Research Projects
 
 * **FONDEF ID24I10408** — Postdoctoral Researcher
-  * Intelligent systems for the detection of illegal products through multimodal integration of text and image data.
+  * *Fiscalización en Comercio Electrónico basada en Inteligencia Artificial mediante análisis multimodal de texto e imágenes.*
+  * Detection of illegal products in e-commerce through multimodal analysis of text and images.
 
 * **FONDECYT 1231675** — Researcher (doctoral stage)
-  * Facial biometrics, 3D iris modeling, and deep learning.
+  * *Advances in iris and face biometrics: Design of CNNs with spatial invariance, anti-aliasing filters, and new structures for improved accuracy.*
 
 * **FONDECYT 1191610** — Researcher (doctoral stage)
-  * Facial biometrics, 3D iris modeling, and deep learning.
+  * *Advances in biometrics: 3D iris surface modeling for improved iris matching across dilation, and brain-inspired enhancements to CNNs for improved face matching across pose.*
 
 * **IMPACT Basal Project FB210024** — Researcher (doctoral stage)
+  * *Center of Interventional Medicine for Precision and Advanced Cellular Therapy.*
   * Deep learning for biomedical image analysis, including the detection of psychiatric disorders from extracellular vesicles.
 
 ## Skills
