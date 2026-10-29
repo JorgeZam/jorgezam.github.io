@@ -20,7 +20,7 @@ redirect_from:
 * 2026–Present: Assistant Professor
   * Universidad Diego Portales
   * Teaching and research in computer vision applied to histopathological image analysis.
-  * Supervisor: Prof. Luciano Ahumada
+  * Director: Prof. Luciano Ahumada
 
 * 2025–2026: Postdoctoral Researcher — FONDEF ID24I10408
   * Universidad de Chile
