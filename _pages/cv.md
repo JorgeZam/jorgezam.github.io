@@ -66,15 +66,13 @@ redirect_from:
   * National Research and Development Agency (ANID), Chile, 2019
   * Competitive national fellowship awarded to fund doctoral studies in Chile.
 
-Publications
-======
+## Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
   
-Teaching
-======
+## Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

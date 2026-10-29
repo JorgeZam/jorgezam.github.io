@@ -22,7 +22,7 @@ My current research focuses on weakly supervised learning applied to the detecti
 - {{ post.citation }} [[Details]]({{ post.url }})
 {% endfor %}
 
-[See all publications: ](/publications/)
+[See all publications](/publications/)
 
 ## Doctoral stage and research
 
