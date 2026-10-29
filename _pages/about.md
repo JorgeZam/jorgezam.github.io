@@ -9,7 +9,7 @@ redirect_from:
 
 Ph.D. in Electrical Engineering from Universidad de Chile, specialized in **Image Processing** and **Artificial Intelligence**. My research lies at the intersection of *deep learning*, image processing, and data science. I completed my undergraduate studies in Ecuador, earning a B.S. in Electronics and Instrumentation Engineering.
 
-I am currently a faculty member at **Universidad Diego Portales**.
+I am an Assistant Professor at the School of Informatics and Telecommunications, **Universidad Diego Portales**.
 
 ## Current Research
 

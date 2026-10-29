@@ -6,18 +6,19 @@ type: "Undergraduate Thesis (Memoria de Título)"
 permalink: /committees/2026-07-23-tomas-diaz
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
 date: 2026-07-23
-location: "Santiago de Chile"
+location: "Santiago, Chile"
 student: "Tomás Francisco Díaz Calderón"
 advisor: "Víctor Reyes"
 status: "Defended"
 ---
 
+**English title:** Adaptive Restart and Clustering Strategies for Branch and Bound Using Q-Learning  
 **Student:** Tomás Francisco Díaz Calderón  
 **Degree:** Undergraduate Thesis (Memoria de Título)  
 **Primary Advisor:** Víctor Reyes  
 **My Role:** Committee Member  
 **Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
-**Location:** Santiago de Chile  
+**Location:** Santiago, Chile  
 **Status:** Defended
 
 

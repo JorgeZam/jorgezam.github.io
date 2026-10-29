@@ -6,16 +6,17 @@ type: "Undergraduate Thesis (Memoria de Título)"
 permalink: /advising/2026-08-06-nicolas-schofield
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
 date: 2026-08-06
-location: "Santiago de Chile"
+location: "Santiago, Chile"
 student: "Nicolás Schofield"
 status: "Defended"
 ---
 
+**English title:** Computer Vision-Based Person Detection for Optimizing Video Surveillance Alerts  
 **Student:** Nicolás Schofield  
 **Degree:** Undergraduate Thesis (Memoria de Título)  
 **My Role:** Primary Advisor (Profesor Guía)  
 **Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
-**Location:** Santiago de Chile  
+**Location:** Santiago, Chile  
 **Status:** Defended  
 
 

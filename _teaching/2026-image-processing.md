@@ -1,5 +1,5 @@
 ---
-title: "Image Processing (CIT3501_CA01)"
+title: "Image Processing (CIT3501-CA01)"
 collection: teaching
 category: instructor
 type: "Undergraduate/Postgraduate course"

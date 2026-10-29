@@ -6,18 +6,19 @@ type: "Undergraduate Thesis (Memoria de Título)"
 permalink: /committees/2026-07-31-martin-sepulveda
 venue: "Universidad Diego Portales, Escuela de Informática y Telecomunicaciones"
 date: 2026-07-31
-location: "Santiago de Chile"
+location: "Santiago, Chile"
 student: "Martín Ignacio Sepúlveda Quintanilla"
 advisor: "Miguel Carrasco"
 status: "Defended"
 ---
 
+**English title:** Visual Attention and Emotional Response to Advertising Images: Eye Tracking and Deep Learning  
 **Student:** Martín Ignacio Sepúlveda Quintanilla  
 **Degree:** Undergraduate Thesis (Memoria de Título)  
 **Primary Advisor:** Miguel Carrasco  
 **My Role:** Committee Member  
 **Institution:** Universidad Diego Portales, Escuela de Informática y Telecomunicaciones  
-**Location:** Santiago de Chile  
+**Location:** Santiago, Chile  
 **Status:** Defended
 
 

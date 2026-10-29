@@ -52,7 +52,7 @@ redirect_from:
 
 * **Programming:** Python, MATLAB
 * **Deep Learning & CV:** PyTorch, OpenCV, YOLO, SuperPoint, LightGlue, CNNs, Transformers, LLMs, AI Agents
-* **Research Areas:** Computer Vision, Biometrics, Medical Imaging, Feature Matching
+* **Research Areas:** Computer Vision, Histopathological Image Analysis, Weakly Supervised Learning (MIL), Biometrics, Medical Imaging, Feature Matching
 * **Tools:** Git, Docker, LaTeX, Jupyter
 * **Teaching:** Programming, Image Processing, Artificial Intelligence
 
