@@ -30,7 +30,7 @@ redirect_from:
 * 2026 (Fall): Part-time Lecturer
   * Universidad de Chile
   * Taught an advanced programming course covering object-oriented programming, functional paradigms, software design patterns, and AI-assisted development with programming agents.
-  * Supervisor: Prof. Andrés Caba
+  * Director: Prof. Andrés Caba
   
 ## Research Projects
 
