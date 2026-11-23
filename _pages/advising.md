@@ -9,21 +9,19 @@ author_profile: true
 {% include hero_layout %}
 
 {% if hero_layout %}
-{% comment %}Each category in a two-column grid, same order as below, with its count{% endcomment %}
-<h2>Advising</h2>
+{% comment %}Each category as a heading with its count over a two-column grid, as on Teaching; same order as below{% endcomment %}
 {% for category in site.advising_category %}
 {% assign items = site.advising | where: "category", category[0] | reverse %}
 {% if items.size > 0 %}
-<h3 class="pub-section">{{ category[1].title }} <span class="pub-section__count">({{ items.size }})</span></h3>
+<h2 class="pub-section">{{ category[1].title }} <span class="pub-section__count">({{ items.size }})</span></h2>
 <div class="item-grid">{% for post in items %}{% include archive-single.html %}{% endfor %}</div>
 {% endif %}
 {% endfor %}
 
-<h2>Thesis Committees</h2>
 {% for category in site.committee_category %}
 {% assign items = site.committees | where: "category", category[0] | reverse %}
 {% if items.size > 0 %}
-<h3 class="pub-section">{{ category[1].title }} <span class="pub-section__count">({{ items.size }})</span></h3>
+<h2 class="pub-section">{{ category[1].title }} <span class="pub-section__count">({{ items.size }})</span></h2>
 <div class="item-grid">{% for post in items %}{% include archive-single.html %}{% endfor %}</div>
 {% endif %}
 {% endfor %}
