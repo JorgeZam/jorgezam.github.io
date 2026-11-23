@@ -1,0 +1,121 @@
+/* ==========================================================================
+   OWCIS-ONLY REFINEMENTS
+   Loaded only when site_theme is "owcis". The shared layout in _owcis.scss
+   is also used by the swiss theme, so look-and-feel changes that belong to
+   OWCIS alone go here.
+   ========================================================================== */
+
+/* Show the page at once instead of fading it in after a delay */
+.masthead,
+#main,
+.page__footer {
+  animation: none;
+}
+
+/* Short pages push the footer to the bottom of the window instead of leaving
+   a light strip under it; the html color covers overscroll at the bottom */
+html {
+  background-color: var(--global-footer-bg-color);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#main {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+/*
+   Body text: justified, hyphenated, a little more line spacing
+   ========================================================================== */
+
+.page__content,
+.archive {
+  line-height: 1.65;
+}
+
+/* Justified from tablet width up; on phones the short lines would open wide gaps between words */
+.page__content p,
+.archive > p {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  @include breakpoint($medium) {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+/* Short accent rule under section headings, echoing the hero kicker */
+.page__content h2,
+.archive h2 {
+  &::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 3px;
+    margin-top: 0.45rem;
+    border-radius: 2px;
+    background: var(--owc-accent);
+  }
+}
+
+/*
+   Selected publications as a card beside the biography
+   ========================================================================== */
+
+.home-aside {
+  @include breakpoint($large) {
+    padding: 1.75rem 1.75rem 1.5rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 12px;
+    background: var(--owc-surface);
+    box-shadow: 0 1px 2px rgba(11, 29, 58, 0.04), 0 8px 24px rgba(11, 29, 58, 0.06);
+  }
+
+  .pub:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Keep each DOI / Paper / BibTeX link on one line */
+.pub__links {
+  gap: 0.15rem 0.85rem;
+
+  > * {
+    white-space: nowrap;
+  }
+}
+
+/*
+   Footer: name and affiliation on the left, links on the right
+   ========================================================================== */
+
+.page__footer footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.5rem;
+
+  /* The base clearfix pseudo-elements would become flex items here */
+  &::before,
+  &::after {
+    content: none;
+  }
+}
+
+.page__footer-follow {
+  order: 2;
+}
+
+.page__footer-copyright {
+  order: 1;
+  line-height: 1.6;
+}

@@ -440,9 +440,11 @@ h1, h2, h3, h4, h5, h6 {
    Footer
    ========================================================================== */
 
-/* The base theme pins the footer to the viewport, where it covers the content; keep it after the page instead */
+/* The base theme pins the footer to the viewport, where it covers the content; keep it after the page instead.
+   _main.js still reserves the footer height as an inline body margin, which would leave an empty band */
 body {
   padding-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .page__footer {
