@@ -38,16 +38,21 @@ body {
   line-height: 1.65;
 }
 
-/* Justified above phone width; on phones the short lines would open wide gaps between words */
+/* Justified at every width; hyphenation keeps the gaps between words small on phones */
 .page__content p,
-.archive > p {
+.archive p {
+  text-align: justify;
+  text-justify: inter-word;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
 
-  @include breakpoint($small) {
-    text-align: justify;
-    text-justify: inter-word;
-  }
+/* Label lines split with <br> (thesis details) and the short course/venue line
+   under each item are lists of data, not prose; stretching them leaves wide gaps */
+.page__content p:has(br),
+.archive p:has(br),
+.archive__item-title + p {
+  text-align: left;
 }
 
 /* Short accent rule under section headings, echoing the hero kicker */
