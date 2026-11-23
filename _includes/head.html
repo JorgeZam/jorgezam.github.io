@@ -10,6 +10,15 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  // Apply the saved or system theme before the first paint, as setTheme() in _main.js
+  // only runs after the page loads and would show the light theme first
+  try {
+    var savedTheme = localStorage.getItem("theme");
+    if ((savedTheme || document.documentElement.getAttribute("data-theme") ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  } catch (e) {}
 </script>
 
 <!-- For all browsers -->

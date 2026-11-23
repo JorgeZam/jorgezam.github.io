@@ -119,3 +119,32 @@ body {
   order: 1;
   line-height: 1.6;
 }
+
+/*
+   Dark mode
+   ========================================================================== */
+
+html[data-theme="dark"] {
+  /* Code blocks use Solarized Light, whose gray, orange and red fall below
+     4.5:1 on the dark code background; lighter tones of the same hues */
+  .highlight {
+    .err, .g, .l, .n, .p, .ge, .go, .gp, .gs, .gt, .ld, .na, .nl, .nn, .nx, .py, .w, .sd, .sh {
+      color: #cbd5e1;
+    }
+
+    .x, .gh, .gu, .kc, .no, .ni, .ne, .se {
+      color: #f08a5d;
+    }
+
+    .gr, .kt, .sr {
+      color: #f47067;
+    }
+  }
+
+  /* The code icon badge is a light gray box in the corner */
+  div.highlighter-rouge:before,
+  figure.highlight:before {
+    background-color: var(--global-border-color);
+    color: var(--global-text-color-light);
+  }
+}
