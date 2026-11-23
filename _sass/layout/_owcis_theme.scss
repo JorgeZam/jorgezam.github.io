@@ -5,40 +5,6 @@
    OWCIS alone go here.
    ========================================================================== */
 
-/* CMU Serif (Computer Modern, the LaTeX typeface) for running text; see
-   assets/fonts/cmu-serif/README.md for its source, license and subsetting */
-@font-face {
-  font-family: "CMU Serif";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/cmu-serif/cmu-serif-500-roman.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "CMU Serif";
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/cmu-serif/cmu-serif-500-italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "CMU Serif";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("../fonts/cmu-serif/cmu-serif-700-roman.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "CMU Serif";
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url("../fonts/cmu-serif/cmu-serif-700-italic.woff2") format("woff2");
-}
-
 /* Show the page at once instead of fading it in after a delay */
 .masthead,
 #main,
@@ -87,24 +53,6 @@ body {
 .archive p:has(br),
 .archive__item-title + p {
   text-align: left;
-}
-
-/* Running text in CMU Serif. Its small x-height and thin strokes read lighter
-   than Chivo, so it is set a little larger; data lines keep the sans */
-.page__content p,
-.archive p {
-  font-family: "CMU Serif", "Latin Modern Roman", Georgia, serif;
-  font-size: 1.08em;
-  line-height: 1.6;
-}
-
-.page__content p:has(br),
-.archive p:has(br),
-.archive__item-title + p,
-.page__content p.page__date,
-.archive p.page__date {
-  font-family: $owc-font;
-  font-size: 1em;
 }
 
 /* Short accent rule under section headings, echoing the hero kicker */
