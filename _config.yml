@@ -164,7 +164,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "profile.jpg" # Social media default site image
+og_image                 : "og-image.jpg" # Square preview when sharing the site (1200x1200, source in scripts/og-image.html)
 og_description           : "Assistant Professor at Universidad Diego Portales working on deep learning, computer vision, and biometric systems." # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
