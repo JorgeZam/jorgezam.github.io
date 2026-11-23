@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "swiss" # "owcis" (navy profile header), "swiss" (white, large type) or the original sidebar layout: "default", "air", "sunrise", "mint", "dirt", "contrast"
+site_theme               : "owcis" # "owcis" (navy profile header), "swiss" (white, large type) or the original sidebar layout: "default", "air", "sunrise", "mint", "dirt", "contrast"
 title                    : "Jorge E. Zambrano Ibujés"
 title_separator          : "|"
 name                     : &name "Jorge Zambrano"
