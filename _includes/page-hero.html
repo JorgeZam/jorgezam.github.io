@@ -25,9 +25,7 @@
         {% if author.orcid %}<li><a class="pill" href="{{ author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID <span aria-hidden="true">↗</span></a></li>{% endif %}
         {% if author.Web-of-Science %}<li><a class="pill" href="{{ author.Web-of-Science }}">Web of Science <span aria-hidden="true">↗</span></a></li>{% endif %}
         {% if author.researchgate %}<li><a class="pill" href="{{ author.researchgate }}"><i class="fab fa-researchgate" aria-hidden="true"></i> ResearchGate <span aria-hidden="true">↗</span></a></li>{% endif %}
-        {% if author.github %}<li><a class="pill" href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span aria-hidden="true">↗</span></a></li>{% endif %}
         {% if author.linkedin %}<li><a class="pill" href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn <span aria-hidden="true">↗</span></a></li>{% endif %}
-        {% if author.email %}<li><a class="pill" href="mailto:{{ author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>{% endif %}
       </ul>
     </div>
   </div>
