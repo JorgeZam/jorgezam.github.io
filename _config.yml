@@ -105,6 +105,8 @@ advising_category:
     title: 'As Primary Advisor'
   co_advisor:
     title: 'As Co-Advisor'
+  research_practice:
+    title: 'As Research Practice Supervisor'
 
 committee_category:
   member:
