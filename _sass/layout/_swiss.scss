@@ -1,0 +1,325 @@
+/* ==========================================================================
+   SWISS STYLE
+   Loaded after the OWCIS rules when site_theme is "swiss": same structure,
+   but white surfaces, Inter, very large bold headings, thin gray rules and
+   underlined links instead of the navy hero and teal accents.
+   ========================================================================== */
+
+$swiss-font                 : "Inter", "InterVariable", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+/* One typeface everywhere: plain elements plus the base rules that name a font
+   on a class; icon fonts keep theirs because their own classes are untouched */
+*,
+body,
+h1, h2, h3, h4, h5, h6,
+button, input, select, textarea,
+.masthead__inner-wrap,
+.page__lead,
+.page__footer-copyright,
+.page__footer-follow li,
+.archive__item-title {
+  font-family: $swiss-font;
+}
+
+tt, code, kbd, samp, pre, pre * {
+  font-family: $monospace;
+}
+
+body {
+  color: var(--global-text-color);
+  letter-spacing: -0.005em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+/*
+   Masthead: white bar, large bold menu, hairline underneath
+   ========================================================================== */
+
+.masthead {
+  background: var(--global-bg-color);
+
+  &::after {
+    background: var(--global-border-color);
+  }
+}
+
+.masthead__menu-item--lg a {
+  color: var(--owc-heading-color);
+}
+
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: var(--owc-heading-color);
+  border-bottom-color: var(--owc-heading-color);
+}
+
+.greedy-nav {
+  a {
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+
+  button {
+    color: var(--global-text-color);
+  }
+
+  .visible-links a:before {
+    background: var(--owc-heading-color);
+  }
+
+  /* The larger menu type leaves the theme toggle touching the menu button on phones */
+  @include breakpoint(max-width $medium) {
+    .visible-links #theme-toggle a {
+      margin-right: 2.25rem;
+    }
+
+    .masthead__menu-item--lg a {
+      font-size: 0.95rem;
+    }
+  }
+}
+
+/*
+   Hero: white, oversized title, rules above and below
+   ========================================================================== */
+
+.hero {
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.hero__inner {
+  align-items: flex-end;
+  gap: 2.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+
+  .hero--profile & {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+
+  @include breakpoint(max-width $small) {
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}
+
+.hero__avatar {
+  width: 180px;
+  height: 220px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+
+  @include breakpoint(max-width $small) {
+    width: 132px;
+    height: 160px;
+  }
+}
+
+.hero__kicker {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.hero__title {
+  color: var(--owc-heading-color);
+  font-size: 4.25rem;
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+
+  &--page {
+    font-size: 3.5rem;
+  }
+
+  @include breakpoint(max-width $medium) {
+    font-size: 2.6rem;
+
+    &--page {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+.hero__subtitle {
+  margin-top: 0.9rem;
+  color: var(--owc-heading-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hero__bio {
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+}
+
+.hero__crumbs {
+  margin-bottom: 1rem;
+  color: var(--global-text-color-light);
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+    &:hover {
+      color: var(--owc-heading-color);
+    }
+  }
+}
+
+.hero__links {
+  gap: 0.6rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Profile links become plain underlined text links */
+.pill {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+
+  &,
+  &:visited,
+  &:hover {
+    color: var(--owc-heading-color);
+  }
+
+  &:hover {
+    border: none;
+    background: none;
+    text-decoration-thickness: 2px;
+  }
+}
+
+/*
+   Content
+   ========================================================================== */
+
+#main {
+  margin-top: 3.5rem;
+}
+
+.page__content h2,
+.archive h2,
+.home-aside > h2 {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.page__content h3,
+.archive h3 {
+  font-size: 1.25rem;
+}
+
+.page__content a,
+.archive a {
+  text-underline-offset: 3px;
+}
+
+.home-grid {
+  @include breakpoint($large) {
+    gap: 5rem;
+  }
+}
+
+.home-main > p:first-child {
+  color: var(--owc-heading-color);
+  font-size: 1.3rem;
+  line-height: 1.45;
+}
+
+/* "See all publications" call to action, underlined */
+.link-arrow,
+.page__content .link-arrow {
+  color: var(--owc-heading-color);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/*
+   Publication lists: ruled rows, no bullets
+   ========================================================================== */
+
+.pub-list {
+  border-top: 1px solid var(--global-border-color);
+
+  &--grid {
+    border-top: none;
+
+    .pub:nth-child(-n+2) {
+      border-top: 1px solid var(--global-border-color);
+    }
+  }
+}
+
+.pub {
+  padding: 1.1rem 0;
+  font-size: 0.92rem;
+
+  &::before {
+    display: none;
+  }
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+.pub__title {
+  font-size: 1.05rem;
+  text-decoration: none !important;
+
+  &,
+  &:visited {
+    color: var(--owc-heading-color);
+  }
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+.pub__links {
+  a,
+  a:visited {
+    color: var(--global-text-color);
+  }
+}
+
+.archive .archive__item-title a {
+  color: var(--owc-heading-color);
+}
+
+/*
+   Footer: white with a hairline, like the rest of the page
+   ========================================================================== */
+
+.page__footer {
+  border-top: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+
+  a,
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: var(--global-text-color);
+  }
+}

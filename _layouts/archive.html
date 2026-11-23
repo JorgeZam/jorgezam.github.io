@@ -2,8 +2,12 @@
 layout: default
 ---
 
+{% include hero_layout %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
+{% elsif hero_layout %}
+  {% include page-hero.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
@@ -13,10 +17,12 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  {% unless hero_layout %}
   {% include sidebar.html %}
+  {% endunless %}
 
   <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
+    {% unless page.header.overlay_color or page.header.overlay_image or hero_layout %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}

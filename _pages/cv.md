@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% include hero_layout %}
 
 ## Education
 
@@ -67,9 +68,9 @@ redirect_from:
   * Competitive national fellowship awarded to fund doctoral studies in Chile.
 
 ## Publications
-  <ul>{% for post in site.publications reversed %}
+{% if hero_layout %}  <ul class="pub-list">{% for post in site.publications reversed %}{% include pub-item.html %}{% endfor %}</ul>{% else %}  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul>{% endif %}
   
   
 ## Teaching

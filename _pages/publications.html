@@ -11,9 +11,19 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+{% include hero_layout %}
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+{% if hero_layout %}
+  {% comment %}Grouped by category, newest first, with the count next to each heading{% endcomment %}
+  {% for category in site.publication_category %}
+    {% assign pubs = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+    {% if pubs.size > 0 %}
+      <h2 class="pub-section">{{ category[1].title }} <span class="pub-section__count">({{ pubs.size }})</span></h2>
+      <ul class="pub-list pub-list--grid">{% for post in pubs %}{% include pub-item.html %}{% endfor %}</ul>
+    {% endif %}
+  {% endfor %}
+{% elsif site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}

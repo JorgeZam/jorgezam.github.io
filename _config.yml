@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "swiss" # "owcis" (navy profile header), "swiss" (white, large type) or the original sidebar layout: "default", "air", "sunrise", "mint", "dirt", "contrast"
 title                    : "Jorge E. Zambrano Ibujés"
 title_separator          : "|"
 name                     : &name "Jorge Zambrano"
@@ -25,6 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Jorge E. Zambrano Ibujés"
+  role             : "Assistant Professor" # Shown above your name in the home page header
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Electrical Engineering, Universidad de Chile. Working on Image Processing and AI applied to histopathology, biomedical imaging, and biometrics."
   location         : "Santiago, Chile"

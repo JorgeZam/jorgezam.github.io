@@ -1,0 +1,471 @@
+/* ==========================================================================
+   OWCIS STYLE
+   Navy masthead and hero, light page, teal publication lists.
+   Loaded last so it overrides the base layout rules.
+   ========================================================================== */
+
+$owc-content-width          : 1200px;
+$owc-font                   : "Chivo", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+/*
+   Base
+   ========================================================================== */
+
+/* Chivo on every element the base theme gives a font, icon fonts keep their own */
+body,
+h1, h2, h3, h4, h5, h6,
+button, input, select, textarea,
+.masthead__inner-wrap,
+.page__lead,
+.page__footer-copyright,
+.page__footer-follow li,
+.archive__item-title {
+  font-family: $owc-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--owc-heading-color);
+  font-weight: 700;
+}
+
+/*
+   Masthead
+   ========================================================================== */
+
+.masthead {
+  background: var(--owc-navy-deep);
+
+  &::after {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  &__inner-wrap {
+    padding: 0.6em 1.5rem;
+
+    @include breakpoint($x-large) {
+      max-width: $owc-content-width;
+    }
+  }
+}
+
+.masthead__menu-item {
+  background-color: transparent;
+
+  &--lg a {
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+}
+
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: #fff;
+  border-bottom-color: var(--owc-accent-on-dark);
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  button {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .visible-links a:before {
+    height: 2px;
+    background: var(--owc-accent-on-dark);
+  }
+
+  .hidden-links {
+    background: var(--owc-surface);
+    border-color: var(--global-border-color);
+
+    &:after {
+      border-color: var(--owc-surface) transparent;
+    }
+
+    a,
+    .masthead__menu-item--lg a,
+    .masthead__menu-item.selected a {
+      color: var(--global-text-color);
+      border-bottom: none;
+    }
+
+    a:hover {
+      color: var(--owc-heading-color);
+      background: var(--global-border-color);
+    }
+  }
+}
+
+/*
+   Hero (profile header on the home page, title band elsewhere)
+   ========================================================================== */
+
+.hero {
+  background:
+    radial-gradient(ellipse at 85% 0%, rgba(111, 211, 223, 0.14), transparent 55%),
+    linear-gradient(135deg, var(--owc-navy-deep) 0%, var(--owc-navy) 55%, var(--owc-navy-light) 100%);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: $owc-content-width;
+  margin: 0 auto;
+  padding: 2.25rem 1.5rem 2.5rem;
+
+  .hero--profile & {
+    padding-top: 3rem;
+    padding-bottom: 3.25rem;
+  }
+
+  @include breakpoint(max-width $small) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+}
+
+.hero__avatar {
+  flex: none;
+  width: 140px;
+  height: 140px;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  @include breakpoint(max-width $small) {
+    width: 104px;
+    height: 104px;
+  }
+}
+
+.hero__body {
+  min-width: 0;
+}
+
+.hero__kicker {
+  margin: 0 0 0.4rem;
+  color: var(--owc-accent-on-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  margin: 0;
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+
+  &--page {
+    font-size: 2.2rem;
+  }
+
+  @include breakpoint(max-width $small) {
+    font-size: 1.9rem;
+
+    &--page {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.hero__subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 1.05rem;
+}
+
+.hero__bio {
+  max-width: 62ch;
+  margin: 0.4rem 0 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.92rem;
+}
+
+.hero__crumbs {
+  margin-bottom: 0.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+
+  a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  span {
+    margin: 0 0.35em;
+  }
+}
+
+.hero__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.38rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: $global-transition;
+
+  &,
+  &:visited,
+  &:hover {
+    color: #fff;
+  }
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.12);
+  }
+}
+
+/*
+   Main column (full width now that the sidebar is gone)
+   ========================================================================== */
+
+#main {
+  margin-top: 2.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  @include breakpoint($x-large) {
+    max-width: $owc-content-width;
+  }
+}
+
+.page,
+.archive {
+  @include breakpoint($large) {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Long-form pages read better at a narrower measure; the home page keeps its two columns */
+.page__inner-wrap:not(:has(.home-grid)) {
+  max-width: 860px;
+}
+
+.page__content h2,
+.archive h2 {
+  margin-top: 2.2em;
+  padding-bottom: 0;
+  border-bottom: none;
+  font-size: 1.35rem;
+}
+
+.archive hr {
+  display: none;
+}
+
+/* Meta line under the title on publication, teaching and advising pages */
+.page__inner-wrap > header p {
+  margin-top: 0;
+  color: var(--global-text-color-light);
+}
+
+/*
+   Home page: biography and selected publications side by side
+   ========================================================================== */
+
+.home-grid {
+  display: grid;
+  gap: 2.5rem;
+
+  @include breakpoint($large) {
+    grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+    gap: 3.5rem;
+  }
+}
+
+.home-main > p:first-child {
+  margin-top: 0;
+  font-size: 1.08rem;
+}
+
+.home-main > h2:first-child,
+.home-aside > h2 {
+  margin-top: 0;
+}
+
+.link-arrow,
+.page__content .link-arrow {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--owc-accent);
+  font-weight: 700;
+  text-decoration: none;
+
+  span {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &:hover span {
+    transform: translateX(3px);
+  }
+}
+
+/*
+   Publication lists
+   ========================================================================== */
+
+.pub-section__count {
+  color: var(--global-text-color-light);
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.pub-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &--grid {
+    display: grid;
+    column-gap: 2.5rem;
+
+    @include breakpoint($medium-wide) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}
+
+.pub {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.95rem 0 0.95rem 1.15rem;
+  border-bottom: 1px solid var(--global-border-color);
+  font-size: 0.9rem;
+  line-height: 1.5;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 1.45rem;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--owc-accent);
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub__title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.35;
+
+  &,
+  &:visited {
+    color: var(--owc-accent);
+  }
+}
+
+.pub__authors b {
+  color: var(--owc-heading-color);
+}
+
+.pub__venue {
+  color: var(--global-text-color-light);
+}
+
+.pub__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1rem;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+
+  a,
+  a:visited {
+    color: var(--owc-accent);
+  }
+}
+
+/* Teaching and advising lists */
+.archive .archive__item-title {
+  font-size: 1.05rem;
+
+  a {
+    color: var(--owc-accent);
+    text-decoration: none;
+  }
+}
+
+/*
+   Footer
+   ========================================================================== */
+
+/* The base theme pins the footer to the viewport, where it covers the content; keep it after the page instead */
+body {
+  padding-bottom: 0;
+}
+
+.page__footer {
+  position: static;
+  float: none;
+  margin-top: 4rem;
+  border-top: none;
+  background-color: var(--global-footer-bg-color);
+  color: rgba(255, 255, 255, 0.6);
+
+  footer {
+    padding: 0.5rem 1.5rem 1.25rem;
+
+    @include breakpoint($x-large) {
+      max-width: $owc-content-width;
+    }
+  }
+
+  a,
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: rgba(255, 255, 255, 0.85);
+  }
+}

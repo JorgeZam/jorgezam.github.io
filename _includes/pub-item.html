@@ -1,0 +1,35 @@
+{%- comment -%}
+  One publication in the OWCIS list style. The citation front matter is
+  'AUTHORS, &quot;TITLE,&quot; in <i>VENUE</i>, DETAILS, doi: DOI.' and is
+  split into authors, venue line and DOI here.
+{%- endcomment -%}
+{%- include base_path -%}
+{%- assign parts = post.citation | split: '&quot;' -%}
+{%- if parts.size >= 3 -%}
+  {%- assign authors = parts[0] | strip -%}
+  {%- assign last = authors | slice: -1 -%}
+  {%- if last == "," -%}{%- assign n = authors.size | minus: 1 -%}{%- assign authors = authors | slice: 0, n -%}{%- endif -%}
+  {%- assign rest = parts[2] | strip | remove_first: "in " | split: ", doi: " -%}
+  {%- assign venue = rest[0] | strip -%}
+  {%- assign doi = rest[1] | strip -%}
+  {%- assign last = doi | slice: -1 -%}
+  {%- if last == "." -%}{%- assign n = doi.size | minus: 1 -%}{%- assign doi = doi | slice: 0, n -%}{%- endif -%}
+  {%- assign last = venue | slice: -1 -%}
+  {%- if last == "." -%}{%- assign n = venue.size | minus: 1 -%}{%- assign venue = venue | slice: 0, n -%}{%- endif -%}
+{%- else -%}
+  {%- assign authors = nil -%}{%- assign venue = post.citation -%}{%- assign doi = nil -%}
+{%- endif -%}
+<li class="pub">
+  <a class="pub__title" href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+  {%- if authors %}
+  <span class="pub__authors">{{ authors }}</span>
+  {%- endif %}
+  {%- if venue %}
+  <span class="pub__venue">{{ venue }}</span>
+  {%- endif %}
+  <span class="pub__links">
+    {%- if doi %}<span>DOI: <a href="https://doi.org/{{ doi }}">{{ doi }}</a></span>{% endif -%}
+    {%- if post.paperurl %}<a href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>{% endif -%}
+    {%- if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif -%}
+  </span>
+</li>

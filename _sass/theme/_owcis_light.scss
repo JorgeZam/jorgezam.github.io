@@ -1,0 +1,63 @@
+/* ==========================================================================
+    OWCIS THEME - LIGHT VERSION
+    Navy hero and masthead, light blue-gray page, teal accents
+    ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #14808f;
+$gray                       : #64748b;
+$dark-gray                  : #334155;
+$darker-gray                : #1e293b;
+$light-gray                 : #94a3b8;
+$lighter-gray               : #e2e8f0;
+
+$navy                       : #0b1d3a;
+$navy-deep                  : #050f2b;
+$navy-light                 : #16325e;
+$accent                     : #14808f;
+$accent-on-dark             : #6fd3df;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #14808f;
+$notice-color               : #64748b;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 6px;
+$box-shadow                 : 0 1px 2px rgba(11, 29, 58, 0.08);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Light theme for the site */
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #f7f9fc;
+    --global-footer-bg-color            : #{$navy-deep};
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #cbd5e1;
+    --global-code-background-color      : #eef2f7;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #{$gray};
+    --global-link-color                 : #{$accent};
+    --global-link-color-hover           : #{mix(#000, $accent, 25%)};
+    --global-link-color-visited         : #{$accent};
+    --global-masthead-link-color        : rgba(255, 255, 255, 0.86);
+    --global-masthead-link-color-hover  : #fff;
+    --global-text-color                 : #{$dark-gray};
+    --global-text-color-light           : #{$gray};
+    --global-thead-color                : #{$lighter-gray};
+
+    --owc-heading-color                 : #{$navy};
+    --owc-navy                          : #{$navy};
+    --owc-navy-deep                     : #{$navy-deep};
+    --owc-navy-light                    : #{$navy-light};
+    --owc-accent                        : #{$accent};
+    --owc-accent-on-dark                : #{$accent-on-dark};
+    --owc-surface                       : #fff;
+}

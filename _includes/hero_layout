@@ -1,0 +1,9 @@
+{% comment %}
+  Sets hero_layout to true for the themes that use the profile header and
+  publication lists instead of the original sidebar layout.
+{% endcomment %}
+{% if site.site_theme == "owcis" or site.site_theme == "swiss" %}
+  {% assign hero_layout = true %}
+{% else %}
+  {% assign hero_layout = false %}
+{% endif %}

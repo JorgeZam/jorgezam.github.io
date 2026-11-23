@@ -1,0 +1,58 @@
+/* ==========================================================================
+    SWISS THEME - DARK VERSION
+    ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #f2f2f2;
+$gray                       : #a3a3a3;
+$dark-gray                  : #e0e0e0;
+$darker-gray                : #1a1a1a;
+$light-gray                 : #8a8a8a;
+
+$background                 : #121212;
+$text                       : #e0e0e0;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #5aa9e6;
+$notice-color               : #a3a3a3;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 0;
+$box-shadow                 : none;
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #333;
+    --global-dark-border-color          : #{$primary-color};
+    --global-code-background-color      : #1e1e1e;
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #{$gray};
+    --global-link-color                 : #{$primary-color};
+    --global-link-color-hover           : #5aa9e6;
+    --global-link-color-visited         : #{$primary-color};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #fff;
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$gray};
+    --global-thead-color                : #1e1e1e;
+
+    --owc-heading-color                 : #fff;
+    --owc-navy                          : #{$background};
+    --owc-navy-deep                     : #{$background};
+    --owc-navy-light                    : #{$background};
+    --owc-accent                        : #{$primary-color};
+    --owc-accent-on-dark                : #{$primary-color};
+    --owc-surface                       : #1e1e1e;
+}

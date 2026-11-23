@@ -36,7 +36,9 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv",
-
+{% if site.site_theme == "owcis" or site.site_theme == "swiss" %}    "layout/owcis",
+{% endif %}{% if site.site_theme == "swiss" %}    "layout/swiss",
+{% endif %}
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"

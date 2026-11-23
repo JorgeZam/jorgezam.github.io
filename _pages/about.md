@@ -7,6 +7,12 @@ redirect_from:
   - /about.html
 ---
 
+{% include hero_layout %}
+{% if hero_layout %}
+<div class="home-grid">
+<div class="home-main" markdown="1">
+{% endif %}
+
 Ph.D. in Electrical Engineering from Universidad de Chile, specialized in **Image Processing** and **Artificial Intelligence**. My research lies at the intersection of *deep learning*, image processing, and data science. I completed my undergraduate studies in Ecuador, earning a B.S. in Electronics and Instrumentation Engineering.
 
 I am an Assistant Professor at the School of Informatics and Telecommunications, **Universidad Diego Portales**.
@@ -15,6 +21,7 @@ I am an Assistant Professor at the School of Informatics and Telecommunications,
 
 My current research focuses on weakly supervised learning applied to the detection of irregularities in histopathological tissue. Specifically, I work with Multiple Instance Learning (MIL) frameworks for Whole Slide Image (WSI) analysis, aiming to identify pathological patterns without requiring exhaustive pixel-level annotations.
 
+{% unless hero_layout %}
 ## Selected Publications
 
 {% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
@@ -23,6 +30,7 @@ My current research focuses on weakly supervised learning applied to the detecti
 {% endfor %}
 
 [See all publications](/publications/)
+{% endunless %}
 
 ## Doctoral stage and research
 
@@ -40,3 +48,14 @@ I have teaching experience since 2019 in courses on **programming**, **signals a
 ## Contact
 
 For collaborations or inquiries: [jorge.zambrano@mail.udp.cl](mailto:jorge.zambrano@mail.udp.cl)
+
+{% if hero_layout %}
+</div>
+<aside class="home-aside">
+<h2>Selected Publications</h2>
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+<ul class="pub-list">{% for post in selected_pubs %}{% include pub-item.html %}{% endfor %}</ul>
+<a class="link-arrow" href="/publications/">See all publications <span aria-hidden="true">→</span></a>
+</aside>
+</div>
+{% endif %}

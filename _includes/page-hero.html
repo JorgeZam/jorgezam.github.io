@@ -1,0 +1,59 @@
+{% include base_path %}
+{% assign author = site.author %}
+
+{% if page.url == "/" %}
+<section class="hero hero--profile" itemscope itemtype="http://schema.org/Person">
+  <div class="hero__inner">
+    {% if author.avatar contains "://" %}
+      {% assign avatar = author.avatar %}
+    {% else %}
+      {% assign avatar = author.avatar | prepend: "/images/" | prepend: base_path %}
+    {% endif %}
+    <img class="hero__avatar" src="{{ avatar }}" alt="{{ author.name }}" width="140" height="140" fetchpriority="high" itemprop="image">
+
+    <div class="hero__body">
+      {% if author.role %}<p class="hero__kicker" itemprop="jobTitle">{{ author.role }}</p>{% endif %}
+      <h1 class="hero__title" itemprop="name">{{ author.name }}</h1>
+      <p class="hero__subtitle">
+        {% if author.employer %}<span itemprop="affiliation">{{ author.employer }}</span>{% endif %}{% if author.employer and author.location %} · {% endif %}{% if author.location %}{{ author.location }}{% endif %}
+      </p>
+      {% if author.bio %}<p class="hero__bio" itemprop="description">{{ author.bio }}</p>{% endif %}
+
+      <ul class="hero__links">
+        {% if author.uri %}<li><a class="pill" href="{{ author.uri }}">UDP Profile <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if author.googlescholar %}<li><a class="pill" href="{{ author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if author.orcid %}<li><a class="pill" href="{{ author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if author.Web-of-Science %}<li><a class="pill" href="{{ author.Web-of-Science }}">Web of Science <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if author.researchgate %}<li><a class="pill" href="{{ author.researchgate }}"><i class="fab fa-researchgate" aria-hidden="true"></i> ResearchGate <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if author.github %}<li><a class="pill" href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if author.linkedin %}<li><a class="pill" href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if author.email %}<li><a class="pill" href="mailto:{{ author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>{% endif %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% else %}
+  {% case page.collection %}
+    {% when "publications" %}
+      {% assign section_title = "Publications" %}{% assign section_url = "/publications/" %}
+    {% when "teaching" %}
+      {% assign section_title = "Teaching" %}{% assign section_url = "/teaching/" %}
+    {% when "advising" or "committees" %}
+      {% assign section_title = "Advising & Committees" %}{% assign section_url = "/advising/" %}
+    {% else %}
+      {% assign section_title = nil %}
+  {% endcase %}
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__body">
+      <nav class="hero__crumbs" aria-label="Breadcrumb">
+        <a href="{{ base_path }}/">Home</a>
+        {% if section_title %}<span aria-hidden="true">/</span> <a href="{{ base_path }}{{ section_url }}">{{ section_title }}</a>{% endif %}
+      </nav>
+      {% if page.title and page.title != "" %}
+        <h1 class="hero__title hero__title--page">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
