@@ -3,6 +3,7 @@ layout: archive
 title: "Curriculum Vitae"
 description: "Assistant Professor at Universidad Diego Portales working on deep learning, computer vision, and biometric systems."
 permalink: /cv/
+archive_class: "archive--cv" # two-column CV layout in the owcis style
 author_profile: true
 redirect_from:
   - /resume

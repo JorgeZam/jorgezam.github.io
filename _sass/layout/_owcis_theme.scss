@@ -153,6 +153,87 @@ figure.highlight .highlight {
 }
 
 /*
+   CV: section titles in a left column, their content on the right, items
+   without bullets (title line in the heading color, details below in gray)
+   ========================================================================== */
+
+.archive--cv {
+  max-width: 1000px;
+
+  > ul:not(.pub-list) {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+    > li {
+      margin-bottom: 0.9rem;
+      color: var(--owc-heading-color);
+    }
+
+    /* An item with details underneath: its first line is the title */
+    > li:has(> ul) {
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 0.2rem 0 0;
+      padding-left: 0;
+      list-style: none;
+      color: var(--global-text-color-light);
+      font-size: 0.95em;
+      font-weight: 400;
+
+      li {
+        margin-bottom: 0.1rem;
+      }
+    }
+  }
+
+  @include breakpoint($medium) {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+
+    /* No gap between the columns, so the rule above each section runs unbroken;
+       the title's right padding keeps it clear of the content */
+    > h2 {
+      grid-column: 1;
+      margin: 0;
+      padding-right: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.35;
+    }
+
+    > :not(h2) {
+      grid-column: 2;
+    }
+
+    > h2,
+    > h2 + * {
+      margin-top: 0;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--global-border-color);
+    }
+
+    > h2:first-child,
+    > h2:first-child + * {
+      padding-top: 0;
+      border-top: none;
+    }
+
+    > ul {
+      margin-bottom: 1.75rem;
+    }
+  }
+}
+
+/* The left column already separates sections, so no accent rule under these titles */
+.archive.archive--cv > h2::after {
+  @include breakpoint($medium) {
+    display: none;
+  }
+}
+
+/*
    Footer: name and affiliation on the left, links on the right
    ========================================================================== */
 
