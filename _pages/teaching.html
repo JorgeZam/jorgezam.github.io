@@ -7,8 +7,18 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% include hero_layout %}
 
-{% if site.teaching_category %}
+{% if hero_layout and site.teaching_category %}
+  {% comment %}Grouped by category in two columns, same order as below, with the count next to each heading{% endcomment %}
+  {% for category in site.teaching_category %}
+    {% assign courses = site.teaching | where: "category", category[0] | reverse %}
+    {% if courses.size > 0 %}
+      <h2 class="pub-section">{{ category[1].title }} <span class="pub-section__count">({{ courses.size }})</span></h2>
+      <div class="item-grid">{% for post in courses %}{% include archive-single.html %}{% endfor %}</div>
+    {% endif %}
+  {% endfor %}
+{% elsif site.teaching_category %}
   {% for category in site.teaching_category  %}
     {% assign title_shown = false %}
     {% for post in site.teaching reversed %}

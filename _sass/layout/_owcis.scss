@@ -426,6 +426,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Two-column grid of teaching items, like the publication list */
+.item-grid {
+  display: grid;
+  column-gap: 2.5rem;
+
+  @include breakpoint($medium-wide) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .list__item {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+}
+
 /* Teaching and advising lists */
 .archive .archive__item-title {
   font-size: 1.05rem;
