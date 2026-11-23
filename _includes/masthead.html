@@ -25,5 +25,15 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    {% include hero_layout %}
+    {% if hero_layout %}
+      {% comment %}On narrow screens the sections show as a row under the name instead of in the menu button{% endcomment %}
+      <nav class="masthead__sections" aria-label="Sections">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          <a href="{{ domain }}{{ link.url }}"{% if page.url contains link.url and link.url != '/' %} class="selected" aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    {% endif %}
   </div>
 </div>
