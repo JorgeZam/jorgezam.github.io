@@ -38,13 +38,13 @@ body {
   line-height: 1.65;
 }
 
-/* Justified from tablet width up; on phones the short lines would open wide gaps between words */
+/* Justified above phone width; on phones the short lines would open wide gaps between words */
 .page__content p,
 .archive > p {
   -webkit-hyphens: auto;
   hyphens: auto;
 
-  @include breakpoint($medium) {
+  @include breakpoint($small) {
     text-align: justify;
     text-justify: inter-word;
   }
